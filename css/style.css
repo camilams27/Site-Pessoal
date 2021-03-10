@@ -1,0 +1,134 @@
+:root{
+    --roxinho: #7e459b;
+    --preta: #141414;
+}
+
+body { /* body pode ser usado com o *. */
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+
+}
+
+/*Banner*/
+
+.banner {
+    background: url(../img/ball.JPG) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 10rem;
+    text-align: center;
+    color:white;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.banner__titulo {
+    font-size: 5rem;
+}
+
+.banner__subtitulo {
+    font-size: 2rem;
+    font-style: italic;
+
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    margin-top: 50%;
+    color: beige;
+    text-decoration: none;
+}
+
+/* Sobre Container */ 
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre-descricao{
+    width: 40%;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.lute{
+    font-family: 'Inconsolata', monospace;
+    font-style: var(--preta);
+}
+
+.sobre-habilidades{
+    width: 35%;
+    margin-top: -1%;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.sobre-habilidades__lista{
+    line-height: 2rem;
+    margin-left: -3%;
+}
+
+.sobre-habilidades__titulo{
+    line-height: 1rem;
+}
+
+.sobre__titulo {
+    font-size: 4rem;
+    color: #ae73b9be;
+    text-align: center;
+    margin: 40px 2px;
+}
+
+.btn-roxo {
+    color:var(--roxinho);
+    text-align: left;
+    border: 1px solid var(--roxinho);
+    text-decoration: none;
+    margin: 0%;
+    padding: 20px auto 5px auto;
+    line-height: 5rem;
+    font-size: 15px;
+}
+
+/* Redes Sociais*/
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais__link {
+    display: inline-block;
+    width: 15%;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+
